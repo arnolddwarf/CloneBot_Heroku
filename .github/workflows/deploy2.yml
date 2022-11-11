@@ -17,6 +17,6 @@ jobs:
           stack: "container"
           region: "us"
         env:
-          HD_telegram_token: ${{secrets.telegram_token}}
-          HD_user_ids: ${{secrets.user_ids}}
-          HD_group_ids: ${{secrets.group_ids}}
+          HD_telegram_token: ${{secrets.TELEGRAM_TOKEN}}
+          HD_user_ids: ${{secrets.USER_IDS}}
+          HD_group_ids: ${{secrets.GROUP_IDS}}
